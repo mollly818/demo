@@ -27,7 +27,7 @@ body,ul{
 	-webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0px 0px 25px rgba(0,0,0,0.1) inset;
 	-moz-box-shadow:0px 1px 4px rgba(255,0,0,0.3),0px 0px 25px rgba(0,0,0,0.1) inset;
 	-o-box-shadow:0px 1px 4px rgba(255,0,0,0.3),0px 0px 25px rgba(0,0,0,0.1) inset;
-	position: relative;
+	position：relative;
 }
 .effect:after,.effect:before{
 	content: '';
