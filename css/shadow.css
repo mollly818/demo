@@ -1,0 +1,137 @@
+body{
+	font-family: "arial black";
+	font-size: 18px;
+}
+
+body,ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container{
+	width: 70%;
+	height: 200px;
+	margin: 5% 15% auto;
+	background: #fff;
+}
+.container p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 200px;
+}
+
+.shadow{
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.3), 0px 0px 40px rgba(0,0,0,0.1) inset;
+	position: relative;
+}
+.shadow:before,.shadow:after{
+	content: '';
+	z-index: -1;
+	position: absolute;
+	top: 50%;
+	bottom: 0px;
+	left: 15px;
+	right: 15px;
+	border-radius: 200px/10px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+
+
+
+
+
+.warp{
+	width: 80%;
+	height: 200px;
+	margin:3% 10% auto;
+	background: #fff;
+}
+
+.warp h2{
+	font-size: 18px;
+	text-align: center;
+	line-height: 200px;
+}
+
+.effect{
+	box-shadow:0px 1px 4px rgba(0,0,0,0.8),0px 0px 25px rgba(0,0,0,0.1) inset;
+	-webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.3),0px 0px 25px rgba(0,0,0,0.1) inset;
+	-moz-box-shadow:0px 1px 4px rgba(255,0,0,0.3),0px 0px 25px rgba(0,0,0,0.1) inset;
+	-o-box-shadow:0px 1px 4px rgba(255,0,0,0.3),0px 0px 25px rgba(0,0,0,0.1) inset;
+	position: relative;
+}
+.effect:after,.effect:before{
+	content: '';
+	z-index: -1;
+	position: absolute;
+	top: 50%;
+	bottom: 0px;
+	left: 15px;
+	right: 15px;
+	border-radius: 200px/10px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+.box{
+	width: 980px;
+	margin:20px auto;
+	height: auto;
+	overflow: hidden;
+	clear: both;
+}
+.box li{
+	position: relative;
+	width: 300px;
+	height: 250px;
+	float:left;
+	margin: 20px 10px;
+	background: #fff;
+	border: 2px solid #efefef;
+	box-shadow:0px 1px 4px rgba(0,0,0,0.27),0 0 60px rgba(0,0,0,0.1) inset;
+	-webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.27),0 0 60px rgba(0,0,0,0.1) inset;
+	-moz-box-shadow:0px 1px 4px rgba(0,0,0,0.27),0 0 60px rgba(0,0,0,0.1) inset;
+	-o-box-shadow:0px 1px 4px rgba(0,0,0,0.27),0 0 60px rgba(0,0,0,0.1) inset;
+}
+
+.box li img{
+	width: 290px;
+	height: 240px;
+	margin: 5px;
+}
+
+.box li:after{
+	content: '';
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	left: 16px;
+	bottom: 8px;
+	background: transparent;
+	z-index: -1;
+	box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+	-wibkit-box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+	-o-box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+	-webkit-transform: skew(-12deg) rotate(-4deg);
+}
+
+.box li:before{
+	content: '';
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	left: 16px;
+	bottom: 8px;
+	background: transparent;
+	z-index: -2;
+	box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+	-wibkit-box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+	-o-box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+	-webkit-transform: skew(12deg) rotate(4deg);
+}
+
+
