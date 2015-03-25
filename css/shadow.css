@@ -3,7 +3,7 @@ body{
 	font-size: 18px;
 }
 
-body,ul,li,h1,span,div{
+body,ul,li,h1,span,div,i{
 	margin: 0;
 	padding: 0;
 	list-style: none;
