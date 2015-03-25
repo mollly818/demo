@@ -9,40 +9,6 @@ body,ul{
 	list-style: none;
 }
 
-.container{
-	width: 70%;
-	height: 200px;
-	margin: 5% 15% auto;
-	background: #fff;
-}
-.container p{
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
-	line-height: 200px;
-}
-
-.shadow{
-	box-shadow: 0px 0px 5px rgba(0,0,0,0.3), 0px 0px 40px rgba(0,0,0,0.1) inset;
-	position: relative;
-}
-.shadow:before,.shadow:after{
-	content: '';
-	z-index: -1;
-	position: absolute;
-	top: 50%;
-	bottom: 0px;
-	left: 15px;
-	right: 15px;
-	border-radius: 200px/10px;
-	box-shadow: 0 0 20px rgba(0,0,0,0.8);
-}
-
-
-
-
-
-
 .warp{
 	width: 80%;
 	height: 200px;
